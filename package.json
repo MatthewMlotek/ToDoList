@@ -1,5 +1,5 @@
 {
-  "name": "calculator",
+  "name": "toDoList",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

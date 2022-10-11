@@ -1,0 +1,58 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+ul {
+    list-style-type: none;
+}
+input[type=text] {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px 8px;
+    color: white;
+    font-size: 25px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 25px;
+}
+.app {
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+}
+.app > h1 {
+    -webkit-text-stroke: 1px black;
+}
+.list {
+    border: 1px solid white;
+    text-align: start;
+    min-height: 100px;
+    color: black;
+}
+.list {
+    font-size: 25px;
+}
+button {
+    padding: 10px 15px;
+    font-size: 15px;  
+}
+button, input[type=button] {
+    /* font-weight: bolder; */
+    font-size: large;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+}
